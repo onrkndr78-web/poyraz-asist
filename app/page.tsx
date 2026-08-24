@@ -25,6 +25,7 @@ type Agency = {
   email?: string;
   commission?: number;
   active?: boolean;
+  password?: string;
 };
 
 const DEFAULT_COMMISSION = 450;
